@@ -11,7 +11,7 @@ class PagesController extends Controller
     }
 
     public function code() {
-        use \App;
+        namespace \App;
         $users = AggieScanUser::all();
 
         return $users;
