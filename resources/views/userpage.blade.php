@@ -6,7 +6,7 @@
         <style media="screen">
 
             body {
-                margin-left: 27%;
+                margin-left: 30%;
                 background-color: #500000;
                 font-family: sans-serif;
                 color: #b2bec3;
@@ -30,7 +30,7 @@
         foreach ($users as $user) :
             if ($user->uin == $uin) {?>
                 <h1><?php echo $user->name ?></h1>
-                <img class='qrCode' src="images/qr_{{$user->uin}}.png" alt="qr_code">"
+                <img class='qrCode' src="images/hs_{{$user->uin}}.png" alt="qr_code">"
                 <p>Name: <?php echo $user->name ?></p>
                 <p>UIN: <?php echo $user->uin ?></p>
                 <p>Cell Number: <?php echo $user->cell_num ?></p>
