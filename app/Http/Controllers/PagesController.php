@@ -11,7 +11,7 @@ class PagesController extends Controller
     }
 
     public function code() {
-        return view('datapage.blade.php', [
+        return view('datapage', [
             'uin' => request('uin')
         ]);
     }
