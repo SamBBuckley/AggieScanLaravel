@@ -39,7 +39,7 @@
                 <p>Name: <?php echo $user->name ?></p>
                 <p>UIN: <?php echo $user->uin ?></p>
                 <p>Cell Number: <?php echo $user->cell_num ?></p>
-                <p>Facebook:<?php echo $user->facebook ?> </p>
+                <p>Facebook: <?php echo $user->facebook ?> </p>
                 <p>Snapchat: <?php echo $user->snap ?></p>
                 <p>Twitter: <?php echo $user->twitter ?></p>
                 <p>Major: <?php echo $user->major ?> </p>
