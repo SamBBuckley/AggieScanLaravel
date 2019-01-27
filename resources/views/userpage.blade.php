@@ -6,13 +6,14 @@
         <style media="screen">
 
             body {
+                margin-left: 20%;
                 background-color: #500000;
                 font-family: sans-serif;
                 color: #b2bec3;
             }
 
             p {
-                margin-left: 20%; 
+                font-size: 45px;
             }
 
 
