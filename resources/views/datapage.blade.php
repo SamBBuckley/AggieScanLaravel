@@ -17,16 +17,10 @@
     </head>
     <body>
         <?php $users = App\AggieScanUser::all(); ?>
-        <?php foreach ($users as $user) :
-            if ($user->uin == $uin) {
-                $match = true;
-            } else {
-                $match = false;
+        <?php foreach ($users as $user) : 
+            if ($user->uin == $uin) {?>
+                <img src="images/qr_{{asset($uin)}}" alt="qr_code"><?php
             }
-            if ($match) {
-                ?>
-                <img src="images/qr_{{asset($uin)}}" alt="qr_code">
-            <?php}
         endforeach; ?>
 
 
