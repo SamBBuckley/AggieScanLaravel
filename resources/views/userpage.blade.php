@@ -39,8 +39,8 @@
                 <p>Twitter: <?php echo $user->twitter ?></p>
                 <p>Major: <?php echo $user->major ?> </p>
                 <p>Graduation Year: <?php echo $user->year ?></p>
-
-            <?php}
+        <?php
+            }
         endforeach;
         ?>
 
