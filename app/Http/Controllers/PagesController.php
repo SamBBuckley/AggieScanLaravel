@@ -12,7 +12,7 @@ class PagesController extends Controller
 
     public function code() {
         return view('datapage', [
-            'uin' = request('uin');
+            'uin' => request('uin');
         ]);
     }
 }
