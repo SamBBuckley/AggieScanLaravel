@@ -15,3 +15,5 @@
 Route::get('/', 'PagesController@home');
 
 Route::get('/qr', 'PagesController@code');
+
+Route::get('/user', 'PagesController@user');
