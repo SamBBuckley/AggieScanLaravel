@@ -12,6 +12,10 @@
                 color: #b2bec3;
             }
 
+            img {
+                width: 20%;
+            }
+
             h1 {
                 font-size: 35px;
             }
