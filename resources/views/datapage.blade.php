@@ -16,9 +16,7 @@
     </head>
     <body>
         <ul>
-            <?php
-            $users = App\AggieScanUser::all();
-            foreach ($users as $user)?>
+        <?php $users = App\AggieScanUser::all(); foreach ($users as $user) : ?>
             <li><<?php $user->uin; ?></li>
         <?php endforeach; ?>
         </ul>
