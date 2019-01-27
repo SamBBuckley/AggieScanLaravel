@@ -12,7 +12,7 @@ class PagesController extends Controller
 
     public function code() {
 
-        $users = AggieScanUser::all();
+        $users = App\AggieScanUser::all();
 
         return $users;
 
