@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Http\Request;
 
-class PagesController extends Controller
+class PagesController extends Http\Controllers\Controller
 {
     public function home() {
         return view('main');
