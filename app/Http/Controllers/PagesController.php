@@ -15,4 +15,10 @@ class PagesController extends Controller
             'uin' => request('uin')
         ]);
     }
+
+    public function user() {
+        return view('userpage', [
+            'uin' => request('uin')
+        ]);
+    }
 }
