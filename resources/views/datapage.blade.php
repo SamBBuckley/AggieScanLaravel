@@ -10,7 +10,7 @@
 
         .qrCode {
             margin-top: 21%;
-            margin-left: 35%;
+            margin-left: 30%;
             position: absolute;
             width: 50%;
             height: auto;
