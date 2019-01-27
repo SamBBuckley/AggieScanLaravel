@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <title>User Data</title>
         <style media="screen">
-
             body {
                 margin-left: 30%;
                 background-color: #500000;
@@ -22,9 +21,6 @@
             p {
                 font-size: 30px;
             }
-
-
-
         </style>
     </head>
     <body>
@@ -45,7 +41,8 @@
                 <p>Graduation Year: <?php echo $user->year ?></p>
 
             <?php}
-        endforeach; ?>
+        endforeach;
+        ?>
 
     </body>
 </html>

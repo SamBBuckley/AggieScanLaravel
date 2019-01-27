@@ -25,8 +25,5 @@
                 <img class='qrCode' src="images/qr_{{$uin}}.png" alt="qr_code"><?php
             }
         endforeach; ?>
-
-
-
     </body>
 </html>
