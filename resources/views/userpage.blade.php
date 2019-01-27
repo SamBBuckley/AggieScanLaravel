@@ -21,6 +21,7 @@
             }
             p {
                 font-size: 30px;
+                outline: 3px solid black;
             }
 
 
@@ -41,7 +42,7 @@
                 <p>Facebook:<?php echo $user->facebook ?> </p>
                 <p>Snapchat: <?php echo $user->snap ?></p>
                 <p>Twitter: <?php echo $user->twitter ?></p>
-                <p>Major:<?php echo $user->major ?> </p>
+                <p>Major: <?php echo $user->major ?> </p>
                 <p>Graduation Year: <?php echo $user->year ?></p>
                 <?php
             }
