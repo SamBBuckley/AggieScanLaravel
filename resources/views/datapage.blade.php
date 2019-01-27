@@ -12,6 +12,7 @@
             margin-top: 22%;
             margin-left: 45%;
             position: absolute;
+            width: 10%;
         }
 
     </style>
