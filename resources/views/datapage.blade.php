@@ -10,14 +10,16 @@
 
         .qrCode {
             padding-top: 50%;
+            font-size: 50px;
         }
 
     </style>
     </head>
     <body>
         <ul>
-            <?php $users = App\AggieScanUser::all(); foreach ($users as $user) : ?>
-                <li><?php $user->uin; ?></li>
+            <?php $users = App\AggieScanUser::all(); ?>
+            <?php foreach ($users as $user) ?>
+                <li><?php echo $user->uin; ?></li>
             <?php endforeach; ?>
         </ul>
 
