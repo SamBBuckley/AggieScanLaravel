@@ -9,9 +9,10 @@
         }
 
         .qrCode {
-            padding-top: 50%;
-            padding-left: 50%;
-            font-size: 50px;
+            margin: auto;
+            width: 50%;
+            border: 4px solid black;
+            padding: 10px;
         }
 
     </style>
