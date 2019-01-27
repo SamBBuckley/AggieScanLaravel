@@ -5,7 +5,7 @@
         <title>QR Code</title>
     <style media="screen">
         body {
-            background-color: #990000;
+            background-color: #500000;
         }
 
         .qrCode {
