@@ -9,8 +9,8 @@
         }
 
         .qrCode {
-            margin-top: 25%;
-            margin-left: 47%;
+            margin-top: 22%;
+            margin-left: 45%;
             position: absolute;
         }
 
