@@ -8,6 +8,12 @@
             background-color: #500000;
         }
 
+
+        @media only screen and (max-width: 750px) {
+            body {
+                background-color: lightblue;
+            }
+}
         .qrCode {
             margin-top: 21%;
             margin-left: 27%;
