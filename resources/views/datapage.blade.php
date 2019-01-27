@@ -16,12 +16,12 @@
     </head>
     <body>
 
-        @foreach (App\AggieScanUser as $user)
-            {{$user_uin => }}{{$user->uin}}
-            @if ($user_uin == {{$uin}})
-                <p>{{$user}}</p>
-            @endif
-        @endforeach
+        <?php
+        foreach (App\AggieScanUser as $user) {
+            if ($user->uin === {{$uin}}) {
+                <p>{{$uin}}</p>
+            }
+        }
 
 
 
