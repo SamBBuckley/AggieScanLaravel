@@ -22,7 +22,7 @@
         <?php $users = App\AggieScanUser::all(); ?>
         <?php foreach ($users as $user) :
             if ($user->uin == $uin) {?>
-                <img class='qrCode' src="images/qr_{{echo $uin}}.png" alt="qr_code"><?php
+                <img class='qrCode' src="images/qr_{{$uin}}.png" alt="qr_code"><?php
             }
         endforeach; ?>
 
