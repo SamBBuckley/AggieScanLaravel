@@ -12,8 +12,11 @@
                 color: #b2bec3;
             }
 
-            p {
+            h1 {
                 font-size: 35px;
+            }
+            p {
+                font-size: 30px;
             }
 
 
