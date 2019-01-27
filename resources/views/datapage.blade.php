@@ -18,14 +18,14 @@
     <body>
         <?php $users = App\AggieScanUser::all(); ?>
         <?php foreach ($users as $user) :
-            if ($user->uid == $uid) {
+            if ($user->uin == $uin) {
                 $match = true;
             } else {
                 $match = false;
             }
             if ($match) {
                 ?>
-                <img src="{{ asset('images/qr_'+$uid) }}" alt="qr_code">
+                <img src="{{ asset('images/qr_'+$uin) }}" alt="qr_code">
             <?php}
         endforeach; ?>
 
