@@ -11,9 +11,8 @@ class PagesController extends Controller
     }
 
     public function code() {
-        namespace \..\..;
-        $users = AggieScanUser::all();
-
-        return $users;
+        return view('datapage.blade.php', [
+            'uin' = request('uin');
+        ]);
     }
 }
