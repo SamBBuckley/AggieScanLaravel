@@ -6,7 +6,7 @@
         <style media="screen">
 
             body {
-                margin-left: 20%;
+                margin-left: 27%;
                 background-color: #500000;
                 font-family: sans-serif;
                 color: #b2bec3;
