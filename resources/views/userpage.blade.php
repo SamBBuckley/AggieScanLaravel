@@ -9,13 +9,14 @@
     </head>
     <body>
         <?php
-            $SnaggedUser = '';
+            $SnaggedUser = null;
             $users = App\AggieScanUser::all();
-            foreach ($users as $user) :
+            foreach ($users as $user) {
                 if ($user->uin == $uin) {
                     $SnaggedUser = $user
                 }
-            endforeach; ?>
+            }
+             ?>
         <h1><?php echo $SnaggedUser->name ?></h1>
         <img class='qrCode' src="images/qr_{{$SnaggedUser->uin}}.png" alt="qr_code">"
         <p>Name: <?php echo $SnaggedUser->name ?></p>
