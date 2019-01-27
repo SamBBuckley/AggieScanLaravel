@@ -21,7 +21,6 @@
             }
             p {
                 font-size: 30px;
-                outline: 3px solid black;
             }
 
 
