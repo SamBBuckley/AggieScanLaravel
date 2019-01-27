@@ -9,24 +9,26 @@
     </head>
     <body>
         <?php
-            $SnaggedUser = null;
-            $users = App\AggieScanUser::all();
-            foreach ($users as $user) {
-                if ($user->uin == $uin) {
-                    $SnaggedUser = $user
-                }
+
+        $users = App\AggieScanUser::all();
+        foreach ($users as $user) :
+            if ($user->uin == $uin) {?>
+                <h1><?php echo $user->name ?></h1>
+                <img class='qrCode' src="images/qr_{{$user->uin}}.png" alt="qr_code">"
+                <p>Name: <?php echo $user->name ?></p>
+                <p>UIN: <?php echo $user->uin ?></p>
+                <p>Cell Number: <?php echo $user->cell_num ?></p>
+                <p>Facebook:<?php echo $user->facebook ?> </p>
+                <p>Snapchat: <?php echo $user->snap ?></p>
+                <p>Twitter: <?php echo $user->twitter ?></p>
+                <p>Major:<?php echo $user->major ?> </p>
+                <p>Graduation Year: <?php echo $user->year ?></p>
+                <?php
             }
-             ?>
-        <h1><?php echo $SnaggedUser->name ?></h1>
-        <img class='qrCode' src="images/qr_{{$SnaggedUser->uin}}.png" alt="qr_code">"
-        <p>Name: <?php echo $SnaggedUser->name ?></p>
-        <p>UIN: <?php echo $SnaggedUser->uin ?></p>
-        <p>Cell Number: <?php echo $SnaggedUser->cell_num ?></p>
-        <p>Facebook:<?php echo $SnaggedUser->facebook ?> </p>
-        <p>Snapchat: <?php echo $SnaggedUser->snap ?></p>
-        <p>Twitter: <?php echo $SnaggedUser->twitter ?></p>
-        <p>Major:<?php echo $SnaggedUser->major ?> </p>
-        <p>Graduation Year: <?php echo $SnaggedUser->year ?></p>
+        endforeach; ?>
+
+        ?>
+
 
     </body>
 </html>
