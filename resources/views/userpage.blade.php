@@ -34,7 +34,7 @@
         foreach ($users as $user) :
             if ($user->uin == $uin) {?>
                 <h1><?php echo $user->name ?></h1>
-                <img class='qrCode' src="images/hs_{{$user->uin}}.jpg" alt="qr_code">"
+                <img class='qrCode' src="images/hs_{{$user->uin}}.jpg" alt="hs">
                 <p>Name: <?php echo $user->name ?></p>
                 <p>UIN: <?php echo $user->uin ?></p>
                 <p>Cell Number: <?php echo $user->cell_num ?></p>
