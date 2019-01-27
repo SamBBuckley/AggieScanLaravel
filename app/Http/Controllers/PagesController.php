@@ -10,9 +10,9 @@ class PagesController extends Controller
         return view('main');
     }
 
-    public function getData() {
+    public function code() {
         return view('datapage', [
-            
+            'uin' = request('uin');
         ]);
     }
 }

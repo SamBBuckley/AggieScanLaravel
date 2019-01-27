@@ -24,7 +24,6 @@ class CreateAggieScanUsers extends Migration
             $table->string('twitter');
             $table->string('major');
             $table->string('year');
-
             $table->timestamps();
         });
     }
