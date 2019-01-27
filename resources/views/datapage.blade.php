@@ -15,12 +15,12 @@
     </style>
     </head>
     <body>
-        @foreach (App\AggieScanUser::all() as $user)
-            @if ($user->uin == {{$uin}})
-                {{$location = 'qr_' + $user->uin}}
-                <img class="qrCode" src={{ asset($location) }} alt="qr_code">
-            @endif
-        @endforeach
+        <ul>
+            @foreach (App\AggieScanUser::all() as $user)
+                <li>$user->uin</li>
+            @endforeach
+        </ul>
+
 
 
     </body>
