@@ -25,7 +25,7 @@
             }
             if ($match) {
                 ?>
-                <img src="{{ asset('images/qr_'+$uin) }}" alt="qr_code">
+                <img src="images/qr_{{asset($uin)}}" alt="qr_code">
             <?php}
         endforeach; ?>
 
