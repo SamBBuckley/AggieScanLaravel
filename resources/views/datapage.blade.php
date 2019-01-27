@@ -15,10 +15,9 @@
     </style>
     </head>
     <body>
-
         <?php
         foreach (App\AggieScanUser as $user) {
-            if ($user->uin === {{$uin}}) {
+            if ($user->uin === $uin) {
                 <p>{{$uin}}</p>
             }
         }
