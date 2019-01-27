@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App;
 
 use Illuminate\Http\Request;
 
@@ -12,7 +12,7 @@ class PagesController extends Controller
 
     public function code() {
 
-        $users = App\AggieScanUser::all();
+        $users = AggieScanUser::all();
 
         return $users;
 
