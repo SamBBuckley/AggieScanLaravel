@@ -10,8 +10,7 @@
 
         .qrCode {
             margin: auto;
-            width: 50%;
-            border: 4px solid black;
+            width:115px;
             padding: 10px;
         }
 
