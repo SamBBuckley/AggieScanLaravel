@@ -17,7 +17,7 @@
     <body>
 
         @foreach (App\AggieScanUser as $user)
-            {{$user_uin => $user->uin}}
+            {{$user_uin => }}{{$user->uin}}
             @if ($user_uin == {{$uin}})
                 <p>{{$user}}</p>
             @endif
