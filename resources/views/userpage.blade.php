@@ -5,6 +5,18 @@
         <title>QR Code</title>
         <style media="screen">
 
+            body {
+                background-color: #500000;
+                font-family: sans-serif;
+                color: #b2bec3;
+            }
+
+            p {
+                margin-left: 20%; 
+            }
+
+
+
         </style>
     </head>
     <body>
@@ -26,9 +38,6 @@
                 <?php
             }
         endforeach; ?>
-
-        ?>
-
 
     </body>
 </html>
