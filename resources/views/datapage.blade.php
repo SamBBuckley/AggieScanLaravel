@@ -15,11 +15,7 @@
     </style>
     </head>
     <body>
-        <ul>
-            @foreach (App\AggieScanUser::all() as $user)
-                <li>{{$user->uin}}/li>
-            @endforeach
-        </ul>
+        
 
 
 

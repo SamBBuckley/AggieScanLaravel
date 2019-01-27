@@ -11,6 +11,11 @@ class PagesController extends Controller
     }
 
     public function code() {
+
+        $users = AggieScanUser::all();
+
+        return $users;
+
         return view('datapage', [
             'uin' => request('uin')
         ]);
